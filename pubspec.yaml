@@ -1,0 +1,43 @@
+name: mega_delivery_free
+description: Mega Delivery (Free-first) – 3-role single-app free-only food delivery.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.0
+
+  # Maps & location (free)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.0
+  geolocator: ^9.0.2
+  http: ^1.2.1
+
+  # Firebase (Spark, free tier)
+  firebase_core: ^2.18.0
+  firebase_auth: ^4.7.0
+  cloud_firestore: ^4.9.0
+  firebase_storage: ^11.2.0
+  google_sign_in: ^6.1.0
+
+  # Image upload
+  image_picker: ^0.8.7
+  image: ^4.1.7
+
+  # State & utils
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
